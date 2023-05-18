@@ -21,7 +21,7 @@ public class CustomerService {
 	// 선택할 수 있는 메뉴 출력
 	public void printMenuOption() {
 		systemService.printCoffeeImage();
-		System.out.println("░\t어서오세요! KOSMO CAFE입니다.\t░░");
+		System.out.println("░\t어서오세요! KOSMO CAFE입니다.\t\t░░");
 		System.out.println("░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
 		System.out.println("░\t1.고객 등록\t2.커피 구매\t░░");
 		System.out.println("░\t3.잔액 확인\t4.잔액 충전\t░░");
