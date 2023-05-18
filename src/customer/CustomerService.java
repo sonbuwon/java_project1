@@ -45,6 +45,8 @@ public class CustomerService {
 		customer = new Customer();
 		customer.setBalance(customerBalance);
 		customer.setName(customerName);
+
+		System.out.println(customer.getName() + "고객님의 고객 등록이 완료되었습니다.\n");
 	}
 
 	// 고객 커피 구매
